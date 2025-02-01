@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <legend>Fill The Form</legend>
+        <h2 style="background-color: maroon;">Forms</h2>
+        <form action="./Table.html"> <!--it open in the tble site-->
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="enter name" required>
+            </div>  <br>
+            <div>
+                <label for="Email">Email:</label>
+                <input type="text" id="Email" placeholder="enter Email" disabled> <!--User data doesn't store in db if we mention disabled-->
+            </div>
+            <div>
+                <label for="Password">Password:</label>
+                <input type="text" id="Password" placeholder="enter Password">  <!--mention type="password" then we get as "..." -->
+            </div>
+
+            <select name="" id="">
+                <option value="Nooptionselected">No Option selected</option>
+                <option value="Maybach">R</option>
+                <option value="Maybach">R</option>
+                <option value="Maybach">R</option>
+            </select>
+
+            <div>
+                <input type="file"><!--To upload files-->
+            </div>
+
+            <!--Data inside textbox not to copy r paste-->
+             <input type="text" oncopy="return false">
+             <input type="text" onpaste="return false">
+            <button type="submit">Submit</button>
+        </form>
+
+
+
+        <div>
+            <iframe src="" frameborder="0"></iframe>
+        </div>
+    </body>
+</html>
+docs.google.com/forms/d/e/1FAl
